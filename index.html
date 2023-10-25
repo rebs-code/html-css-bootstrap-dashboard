@@ -36,9 +36,9 @@
                         <i class="fa-solid fa-bell text-warning fs-4"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Profilo</a></li>
+                        <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,11 +91,37 @@
 
                             <div class="offcanvas offcanvas-end min-vw-100" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"  aria-labelledby="offcanvasScrollingLabel">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                    <p>Try scrolling the rest of the page to see this option in action.</p>
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col mb-3">
+                                            <label for="input-name" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="input-name" placeholder="">
+                                        </div>
+                                        <div class="col mb-3">
+                                            <label for="input-surname" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="input-surname" placeholder="">
+                                        </div>   
+                                    </div>
+                                    <div class="row d-flex justify-content-between">
+
+                                        <div class="form-group col">
+                                            <label for="input-email" class="form-label">Email</label>
+                                            <div class="input-group mb-3">
+                                              <span class="input-group-text" id="basic-addon1">@</span>
+                                              <input type="email" class="form-control" placeholder="" id="input-email" aria-describedby="basic-addon1">
+                                            </div>
+                                          </div>
+
+
+
+                                        <div class="col mb-3">
+                                            <label for="input-pass" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="input-pass" placeholder="">
+                                        </div>   
+                                    </div>
                                 </div>
                             </div>
                             <!-- /offcanvas -->
