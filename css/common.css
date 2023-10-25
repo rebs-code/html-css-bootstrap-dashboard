@@ -70,3 +70,11 @@ main .main-top {
     height: 50%;
     
 }
+
+:root {
+    --custom-offcanvas-width: 100%; /* Adjust the width as needed */
+  }
+
+.offcanvas.offcanvas-end {
+    width: var(--custom-offcanvas-width);
+}

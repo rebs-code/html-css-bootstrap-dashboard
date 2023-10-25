@@ -4,4 +4,10 @@
         max-width: 170px;
     }
 
-  }
+    :root {
+        --custom-offcanvas-width: 60%; /* Adjust the width as needed */
+      }
+
+    .offcanvas.offcanvas-end {
+        width: var(--custom-offcanvas-width);
+    }}
