@@ -14,14 +14,22 @@ header .row {
 /* sidebar */
 main .sidebar {
     max-width: 70px;
-    background-color: #051e34;
+    background-color: var(--dark-blue);
     background-image: url(/img/sidebar-bg.png);
     background-size: cover;
     background-position: 0px 100px;
 }
 
+/* right-container */
+
 main .right-container {
     height: calc(100vh - 70px);
     width: 100%;
     background-color: red;
+}
+
+/* main-top */
+
+main .main-top {
+    background-color: var(--blue);
 }
