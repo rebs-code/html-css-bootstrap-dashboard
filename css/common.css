@@ -1,0 +1,16 @@
+/* header */
+header {
+    height: 70px;
+}
+
+/* sidebar */
+main .sidebar {
+    width: 70px;
+    background-color: dodgerblue;
+}
+
+main .main-container {
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-color: red;
+}
