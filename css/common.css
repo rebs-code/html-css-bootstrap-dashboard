@@ -15,6 +15,9 @@ header .row {
 main .sidebar {
     max-width: 70px;
     background-color: #051e34;
+    background-image: url(/img/sidebar-bg.png);
+    background-size: cover;
+    background-position: center 0.3rem;
 }
 
 main .right-container {
