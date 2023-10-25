@@ -61,3 +61,7 @@ main .main-top {
 .breadcrumb-item + .breadcrumb-item::before {
     content: var(--bs-breadcrumb-divider, "");
 }
+
+.breadcrumb button, .button-size {
+    font-size: .75rem;
+}
