@@ -17,7 +17,7 @@ main .sidebar {
     background-color: #051e34;
     background-image: url(/img/sidebar-bg.png);
     background-size: cover;
-    background-position: center 0.3rem;
+    background-position: 0px 100px;
 }
 
 main .right-container {
