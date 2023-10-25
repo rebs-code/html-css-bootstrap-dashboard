@@ -1,11 +1,19 @@
 /* header */
-header {
+header .row {
     height: 70px;
+}
+
+.logo {
+    max-width: 70px;
+}
+
+.dd-button {
+    max-width: 50px;
 }
 
 /* sidebar */
 main .sidebar {
-    width: 70px;
+    min-width: 70px;
     background-color: dodgerblue;
 }
 

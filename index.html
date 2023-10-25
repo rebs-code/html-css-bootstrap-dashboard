@@ -18,7 +18,31 @@
 <body>
     <!-- HEADER -->
     <header>
-
+        <div class="row align-items-center justify-content-between gx-0">
+            <div class="col logo"> <!-- 1st Column - logos -->
+                <div>
+                    <img src="img/mobile-logo.png" alt="mobile logo" class="img-fluid">
+                </div>
+            </div>
+            <div class="col px-3"> <!-- 2nd Column (flexible width) input field -->
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control border-start-0" placeholder="Prova a cerca: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+            </div>
+            <div class="col dd-button"> <!-- 3rd Column - dropdown link -->
+                <div class="dropdown">
+                    <a class="btn btn-secondary bg-white border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell text-warning fs-4"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- /HEADER -->
     <!-- MAIN -->
