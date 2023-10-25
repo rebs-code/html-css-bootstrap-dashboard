@@ -32,4 +32,5 @@ main .right-container {
 
 main .main-top {
     background-color: var(--blue);
+    padding-top: 2.5rem;
 }
