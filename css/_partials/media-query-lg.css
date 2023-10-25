@@ -1,0 +1,7 @@
+@media screen and (min-width: 992px) {
+    /* navbar */
+    main .sidebar {
+        max-width: 170px;
+    }
+
+  }

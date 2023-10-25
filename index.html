@@ -27,7 +27,7 @@
             <div class="col px-3"> <!-- 2nd Column (flexible width) input field -->
                 <div class="input-group flex-nowrap">
                     <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control border-start-0" placeholder="Prova a cerca: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
+                    <input type="text" class="form-control border-start-0 bg-body-secondary" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
                 </div>
             </div>
             <div class="col dd-button"> <!-- 3rd Column - dropdown link -->
@@ -47,12 +47,48 @@
     <!-- /HEADER -->
     <!-- MAIN -->
     <main class="d-flex">
-        <nav class="sidebar">
-            hello
+        <nav class="sidebar text-white container py-5 d-flex flex-column align-items-center">
+            <!-- top navbar -->
+            <div class="nav-top">
+                <div class="row flex-column">
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
+                        <a href="#" class="text-white text-decoration-none">
+                            <i class="fa-solid fa-house fs-4"></i> 
+                            <span class="d-none d-lg-inline">Home</span>
+                        </a>
+                        </li>
+                        <li class="mb-4">
+                        <a href="#" class="text-white text-decoration-none">
+                            <i class="fa-solid fa-chart-simple fs-4"></i>
+                            <span class="d-none d-lg-inline">Stats</span>
+                        </a>
+                        </li>
+                        <li class="mb-4">
+                        <a href="#" class="text-white text-decoration-none">
+                            <i class="fa-solid fa-signal fs-4"></i>
+                            <span class="d-none d-lg-inline">Signals</span>
+                        </a>
+                        </li>
+                    </ul>
+                    <div class="col"> <!-- 2nd Column sidebar options -->
+                    <!-- Content for the 2nd Column (central column) -->
+                    </div>
+                </div>
+            </div>
+            <!-- bottom navbar -->
+            <div class="bottom-navbar mb-auto">
+                HELLO
+            </div>
+            <!-- /bottom navbar -->
         </nav>
-        <div class="main-container">
-            hello
+        <!-- right container -->
+        <div class="right-container d-flex">
+            <div class="mb-auto">
+                hello
+            </div>
         </div>
+        <!-- /right container -->
     </main>
     <!-- /MAIN -->
 

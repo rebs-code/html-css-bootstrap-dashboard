@@ -13,11 +13,11 @@ header .row {
 
 /* sidebar */
 main .sidebar {
-    min-width: 70px;
-    background-color: dodgerblue;
+    max-width: 70px;
+    background-color: #051e34;
 }
 
-main .main-container {
+main .right-container {
     height: calc(100vh - 70px);
     width: 100%;
     background-color: red;
