@@ -11,10 +11,6 @@ header .row {
     min-width: calc(170px -1rem);
 }
 
-.dd-button {
-    max-width: 50px;
-}
-
 /* sidebar */
 main .sidebar {
     max-width: 70px;
