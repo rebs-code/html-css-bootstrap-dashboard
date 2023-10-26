@@ -67,8 +67,7 @@ main .main-top {
 }
 
 .button-size {
-    height: 50%;
-    
+    height: 50%; 
 }
 
 :root {
@@ -78,3 +77,6 @@ main .main-top {
 .offcanvas.offcanvas-end {
     width: var(--custom-offcanvas-width);
 }
+
+/* table */
+
