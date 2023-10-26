@@ -80,3 +80,6 @@ main .main-top {
 
 /* table */
 
+img[alt="avatar"] {
+    width: 1.875rem;
+}
