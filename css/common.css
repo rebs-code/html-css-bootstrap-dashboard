@@ -25,7 +25,6 @@ main .sidebar {
 main .right-container {
     height: calc(100vh - 70px);
     width: 100%;
-    background-color: red;
     overflow-y: auto;
 }
 
