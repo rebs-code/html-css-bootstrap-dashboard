@@ -81,6 +81,6 @@ main .main-top {
 
 /* table */
 
-img[alt="avatar"] {
+img[alt="avatar"] { /* Not ideal to use the alt as a selector but as here the imgs are all avatars and probably loaded dinamically that's fine, I assume */
     width: 1.875rem;
 }
