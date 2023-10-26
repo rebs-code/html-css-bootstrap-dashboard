@@ -21,3 +21,20 @@ This project is a dashboard application designed and developed using a combinati
 - Organized Information: The dashboard efficiently organizes and presents important information and features in a user-friendly manner, helping users quickly access the content they need.
 
 ## Screenshots
+
+Dashboard in XL breakpoint &#8595;
+
+![Full XL screenshot](/screens/screen-xl.jpg)
+
+Dashboard (bottom) in XL breakpoint &#8595;
+
+![Full XL bottom screenshot](/screens/screen-bottom-xl.jpg)
+
+Offcanvas in XL view &#8595;
+
+![Full XL screenshot](/screens/screen-offcanvas-xl.jpg)
+
+Dashboard in mobile view &#8595;
+
+![Full XL screenshot](/screens/screen-sm.jpg)
+
