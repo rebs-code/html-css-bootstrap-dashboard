@@ -20,6 +20,10 @@ main .sidebar {
     background-position: 0px 100px;
 }
 
+.nav-top ul.list-unstyled li:hover { /* hover effect on link */
+    background-color: #dde0e363;
+}
+
 /* right-container */
 
 main .right-container {
