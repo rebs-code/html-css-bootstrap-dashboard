@@ -19,9 +19,10 @@
     <!-- HEADER -->
     <header>
         <div class="row align-items-center justify-content-between gx-0">
-            <div class="col logo"> <!-- 1st Column - logos -->
-                <div>
-                    <img src="img/mobile-logo.png" alt="mobile logo" class="img-fluid">
+            <div class="col-auto"> <!-- 1st Column - logos -->
+                <div class="px-xl-2">
+                    <img src="img/mobile-logo.png" alt="mobile logo" class="img-fluid d-xl-none logo-small">
+                    <img src="img/logo.svg" alt="logo-full" class="d-none d-xl-block logo-full">
                 </div>
             </div>
             <div class="col px-3"> <!-- 2nd Column (flexible width) input field -->
@@ -30,7 +31,7 @@
                     <input type="text" class="form-control border-start-0 bg-body-secondary" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
                 </div>
             </div>
-            <div class="col dd-button"> <!-- 3rd Column - dropdown link -->
+            <div class="col-auto dd-button"> <!-- 3rd Column - dropdown link -->
                 <div class="dropdown">
                     <a class="btn btn-secondary bg-white border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-bell text-warning fs-4"></i>

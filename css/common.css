@@ -3,8 +3,12 @@ header .row {
     height: 70px;
 }
 
-.logo {
+.logo-small {
     max-width: 70px;
+}
+
+.logo-full {
+    min-width: calc(170px -1rem);
 }
 
 .dd-button {
