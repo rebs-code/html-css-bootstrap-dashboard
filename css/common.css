@@ -40,6 +40,7 @@ main .main-top {
 }
 
 
+/* change input text in offcanvas */
 .custom-file-button {
 	input[type="file"] {
 		margin-left: -2px !important;
@@ -60,8 +61,7 @@ main .main-top {
 	}
 }
 
-
-
+/* breadcrum in main top */
 .breadcrumb-item + .breadcrumb-item::before {
     content: var(--bs-breadcrumb-divider, "");
 }
